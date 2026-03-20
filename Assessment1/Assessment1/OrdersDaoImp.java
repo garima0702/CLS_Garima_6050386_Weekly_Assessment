@@ -51,7 +51,7 @@ public class OrdersDaoImp implements IOrders{
 			        .setParameter("name", custName)
 			        .getResultList();
 	
-		// TODO Auto-generated method stub
+		
 		return list;
 	}
 }

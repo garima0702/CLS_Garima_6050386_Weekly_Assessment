@@ -16,6 +16,7 @@ import java.util.List;
  * Hello world!
  *
  */
+//
 public class DaoClient {
     static OrdersDaoImp dao = new OrdersDaoImp();
     static Scanner scan = new Scanner(System.in);

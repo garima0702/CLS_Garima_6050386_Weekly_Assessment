@@ -16,6 +16,7 @@ public class Customer {
 	@Id
 	private int Customer_id;
 
+	@Column (nullable= false)
 	private String Customer_name;
 	
 	@OneToMany(cascade = CascadeType.ALL)
